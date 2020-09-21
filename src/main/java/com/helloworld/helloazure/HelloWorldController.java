@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/")
     public String test(){
-        return "Hello world from azure";
+        return "Hello world from azure 2";
     }
 }
